@@ -16,21 +16,47 @@ inquirer
             type: 'input',
             name: 'description',
             message: 'How would you descript your project?',
-        }
+        },
         {
             type: 'input',
             name: 'content',
             message: 'What is your table of contents',
-        }
+        },
         {
             type: 'input',
             name: 'installation',
             message: 'How to you install your project?',
-        }
+        },
         {
             type: 'input',
             name: 'usage',
             message: 'How do you use this project?'
+        },
+        {
+            type: 'input',
+            name: 'contribution',
+            message: 'How to contribute to this project?',
+        },
+        {
+            type: 'input',
+            name: 'testing',
+            message: 'How do you test this project?',
+        },
+        {
+            type: 'checkbox',
+            name: 'licensing',
+            message: 'Please choose a license for your project.',
+            choice: ['Apache', 'MIT', 'Mozilla-Public', 'GNU-General-Public'],
+        },
+        {
+            type: 'input',
+            name: 'github',
+            message: 'Please enter your GitHub Username',
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'Please enter your email.',
         }
     ])
 

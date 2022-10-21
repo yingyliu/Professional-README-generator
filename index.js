@@ -11,42 +11,93 @@ inquirer
             type:'input',
             name: 'title',
             message: 'What is the title of the project?',
+            validate: titleInput => {
+                if (titleInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your project title.');
+                    return false;
+                }
+            }
         },
         {
             type: 'input',
             name: 'description',
             message: 'How would you descript your project?',
-        },
-        {
-            type: 'input',
-            name: 'content',
-            message: 'What is your table of contents',
+            validate: descriptionInput => {
+                if (descriptionInput) {
+                    return true;
+                } else {
+                    console.log ('Please provide your project description.');
+                    return false;
+                }
+            }
         },
         {
             type: 'input',
             name: 'installation',
             message: 'How to you install your project?',
+            validation: installationInput => {
+                if (installationInput) {
+                    return true;
+                } else {
+                    console.log ('Please provide your installation instructions.');
+                    return false;
+                }
+            }
         },
         {
             type: 'input',
             name: 'usage',
-            message: 'How do you use this project?'
+            message: 'How do you use this project?',
+            validation: usageInput => {
+                if (usageInput) {
+                    return true;
+                } else {
+                    console.log ('Please provide your usage information.');
+                    return false;
+                }
+            }
         },
         {
             type: 'input',
             name: 'contribution',
             message: 'How to contribute to this project?',
+            validation: contributionInput => {
+                if (contributionInput) {
+                    return true;
+                } else {
+                    console.log ('Please provide your contribution guidelines.');
+                    return false;
+                }
+            }
         },
         {
             type: 'input',
             name: 'testing',
             message: 'How do you test this project?',
+            validation: testingInput => {
+                if (testingInput) {
+                    return true;
+                } else {
+                    console.log ('Please describe your test instructions.');
+                    return false;
+                }
+            }
         },
         {
             type: 'checkbox',
             name: 'licensing',
             message: 'Please choose a license for your project.',
             choice: ['Apache', 'MIT', 'Mozilla-Public', 'GNU-General-Public'],
+            validation: licensingInput => {
+                if (licensingInput) {
+                    return true;
+                } else {
+                    console.log ('Please pick a license for this project.');
+                    return false;
+                }
+            }
         },
         {
             type: 'input',

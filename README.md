@@ -1,6 +1,6 @@
 # Professional-README-generator
 
-![README-generator](./video-demo/Untitled_%20Oct%2021%2C%202022%208_05%20PM.webm)
+[README-generator](https://youtu.be/zdc988YIBmc)
 
 ## Table of Contents
 - [Description](#description)

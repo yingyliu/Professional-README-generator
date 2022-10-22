@@ -1,6 +1,6 @@
 # Professional-README-generator
 
-[README-generator](https://youtu.be/zdc988YIBmc)
+[README-generator Video Link](https://youtu.be/zdc988YIBmc)
 
 ## Table of Contents
 - [Description](#description)

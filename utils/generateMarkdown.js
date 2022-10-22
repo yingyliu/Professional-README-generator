@@ -1,4 +1,4 @@
-// TODO: Create a function to generate markdown for README
+// Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
@@ -28,7 +28,7 @@ function generateMarkdown(data) {
   ${data.testing}
 
   ## License:
-  this project is licensed under ${data.licensing}
+  This project is licensed under ${data.licensing}
 
   ## Additional Info
   If you have any question, please feel free to reach me here:

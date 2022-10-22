@@ -30,7 +30,8 @@ function generateMarkdown(data) {
   ## License:
   this project is licensed under ${data.licensing}
 
-  ## If you have any question, please feel free to reach me here:
+  ## Additional Info
+  If you have any question, please feel free to reach me here:
   -Github: [${data.github}] (https://github.com/${data.github})
   -Email: ${data.email}`;
 }

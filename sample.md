@@ -1,4 +1,8 @@
-# feawfewa
+# README generator
+
+  
+  [![license](https://img.shields.io/badge/license-MIT-blue)](https://shields.io)
+
   ## Table of Contents
   -[Description](#description)
   -[Installation](#installation)
@@ -6,26 +10,24 @@
   -[Contribution](#contribution)
   -[Tests](#testing)
   -[Additional Info](#addition-info)
-
   ## Description:
-  fewa
+  The main goal of this project is to generate a sample README file by using node.js
 
   ## Installation:
-  fe
+  Dowload it from my GitHub
 
   ## Usage:
-  waf
+  Open your terminal and type node index.js
 
   ## Contribution
-  weaf
+  N/A
 
   ## Test
-  ewaf
+  by node js
 
   ## License:
-  Apache
-  [![license](https://img.shields.io/badge/license-Apache-blue)](https://shields.io)
+  this project is licensed under MIT
 
-  ## Additional Info:
-  -Github: [fseafe] (https://github.com/fseafe)
-  -Email: wfewa
+  ## If you have any question, please feel free to reach me here:
+  -Github: [yingyliu] (https://github.com/yingyliu)
+  -Email: tzuchieh.liu@gmail.com
